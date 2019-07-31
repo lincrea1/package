@@ -1,4 +1,10 @@
 {
-    "dispLimit":12,
-    "dispSkip":0
+    "latestLimit"  : 12,
+    "latestSkip"   : 0,
+    "latestRow"    : 4,
+    "latestLoadF"  : false,
+    "materialLimit": 20,
+    "materialSkip" : 0,
+    "materialRow"  : 5,
+    "materialLoadF": false,
 }
