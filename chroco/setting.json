@@ -6,5 +6,9 @@
     "materialLimit": 100,
     "materialSkip" : 0,
     "materialRow"  : 5,
-    "materialLoadF": false
+    "materialLoadF": false,
+    "skillLimit"   : 100,
+    "skillSkip"    : 0,
+    "skillRow"     : 5,
+    "skillLoadF"   : false
 }
