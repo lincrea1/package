@@ -6,5 +6,5 @@
     "materialLimit": 20,
     "materialSkip" : 0,
     "materialRow"  : 5,
-    "materialLoadF": false,
+    "materialLoadF": false
 }
