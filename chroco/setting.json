@@ -3,7 +3,7 @@
     "latestSkip"   : 0,
     "latestRow"    : 4,
     "latestLoadF"  : false,
-    "materialLimit": 50,
+    "materialLimit": 100,
     "materialSkip" : 0,
     "materialRow"  : 5,
     "materialLoadF": false
