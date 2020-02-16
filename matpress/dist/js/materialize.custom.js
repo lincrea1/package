@@ -2060,7 +2060,7 @@ $jscomp.polyfill = function (e, r, p, m) {
 
           var pTop = $body.css('padding-top');
           var pBottom = $body.css('padding-bottom');
-          var finalHeight = $body[0].scrollHeight;
+          // var finalHeight = $body[0].scrollHeight;
           $body.css({
             paddingTop: 0,
             paddingBottom: 0
