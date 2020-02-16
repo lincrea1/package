@@ -498,15 +498,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   fn.extend({
     css: function (prop, value) {
-      if (isString(prop)) {
-        try {
-          prop = getPrefixedProp(prop);
-          return arguments.length > 1 ? this.each(function (v) {
-            return v.style[prop] = value;
-          }) : win.getComputedStyle(this[0])[prop];
-        }catch (ex) {
-          console.log(ex);
-        }
+      if (isString(prop) && value != null) {
+        prop = getPrefixedProp(prop);
+        return arguments.length > 1 ? this.each(function (v) {
+          return v.style[prop] = value;
+        }) : win.getComputedStyle(this[0])[prop];
       }
 
       for (var key in prop) {
