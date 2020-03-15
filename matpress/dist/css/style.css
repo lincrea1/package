@@ -13,7 +13,7 @@
  *	3. Forms
  *	4. Tabs
  */
-@import url(icons/font-awesome/css/fontawesome-all.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css");
 @import url(icons/simple-line-icons/css/simple-line-icons.css);
 @import url(icons/weather-icons/css/weather-icons.min.css);
 @import url(icons/themify-icons/themify-icons.css);
