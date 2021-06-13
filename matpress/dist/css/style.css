@@ -6059,7 +6059,7 @@ textarea.materialize-textarea {
   input[type=search]:not(.browser-default)[readonly="readonly"],
   textarea.materialize-textarea:disabled,
   textarea.materialize-textarea[readonly="readonly"] {
-    color: rgba(0, 0, 0, 0.42);
+    /* color: rgba(0, 0, 0, 0.42); */
     border-bottom: 1px dotted rgba(0, 0, 0, 0.42); }
   input:not([type]):disabled + label,
   input:not([type])[readonly="readonly"] + label,
