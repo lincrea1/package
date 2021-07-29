@@ -87,7 +87,7 @@ Timeline page
   border-left: 7px solid #fff; }
 
 .timeline > li > .timeline-badge {
-  z-index: 10;
+  z-index: auto;
   position: absolute;
   top: 16px;
   left: 50%;
